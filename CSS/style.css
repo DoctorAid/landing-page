@@ -7,7 +7,8 @@
     scroll-behavior: smooth;
 }
 body{
-    scroll-behavior: smooth;
+  background: linear-gradient(135deg, #d5f8ff, #ffffff, #f4f4f4, #a2e3ff); /* Pink and blue gradient */
+
 }
 nav,
 .nav-items{
@@ -241,7 +242,7 @@ h2 {
   text-align: left;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #007489; 
+  color: #00879f; 
 }
 
 ul {

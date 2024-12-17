@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(135deg, #d5f8ff, #ffffff, #f4f4f4, #a2e3ff); /* Pink and blue gradient */
+
+}
+nav,
+.nav-items{
+  display: flex;
+  align-items: center;
+}
+nav{
+  padding: 80px;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+.nav-items{
+  gap: 2rem;
+  list-style: none;
+  font-size: 1rem;
+}
+a{
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+a:hover{
+  color: rgb(76, 76, 76);
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: rgb(79, 79, 79);
+}
+.logo{
+  height: 150px;
+  width: 150px;
+}
+.logo:hover{
+  cursor: default;
+}
+.signIn-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+.signIn-button:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(33, 0, 85);
+}
+  
+.signIn-button:active {
+  transform: scale(0.97);
+}
+  
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+  
+.hoverEffect div {
+  background: rgb(120, 248, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(199, 201, 239) 0%,
+    rgb(2, 144, 205) 49%,
+    rgb(242, 242, 242) 100%
+);
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+}
+  
+.button:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
+}
+  
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  
+#view1{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.container1-right{
+  width: 45vw;
+  margin-top: -2rem;
+}
+.container1-right img{
+  height: 400px;
+}
+.container1-left{
+  flex: 1; 
+  padding: 80px;
+}
+.container1-left .sub-Maintitle{
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgb(0, 128, 175);
+}
+.container1-left .Maintitle{ 
+  margin-bottom: 3rem;
+  text-align: left;
+  font-size: 4.5rem;
+  font-weight: 650;
+}
+.container1-left .content-1{
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.buttontype2 {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #009fab;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  }
+  
+.buttontype2:hover::before {
+  transform: scaleX(1);
+}
+  
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+  
+.buttontype2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(0, 99, 99) 10.8%,
+    rgb(0, 101, 106) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+#view2{
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+.container2{
+  padding: 80px;
+}
+.section-title{
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.section-content{
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 200;
+  margin-bottom: 4rem;
+}
+.section-sub-title1{
+  text-align: left;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.features {
+  text-align: left;
+  display: flex; 
+  gap: 2rem; 
+  padding: 0rem; 
+}
+
+.column {
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 30px rgba(159, 159, 159, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 20px;
+  flex: 1; 
+  max-width: 45%; 
+}
+
+h2 {
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00879f; 
+}
+
+ul {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}

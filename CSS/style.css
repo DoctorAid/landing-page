@@ -115,13 +115,13 @@ a:hover{
 }
   
 #view1{
-  height: 85vh;
+  height: 70vh;
   display: flex;
   align-items: center;
 }
 .container1-right{
   width: 45vw;
-  margin-top: -10rem;
+  margin-top: -2rem;
 }
 .container1-right img{
   height: 400px;
@@ -131,14 +131,13 @@ a:hover{
   padding: 80px;
 }
 .container1-left .sub-Maintitle{
-  margin-top: -5rem;
   text-align: left;
   font-size: 1.4rem;
   font-weight: 500;
   color: rgb(0, 128, 175);
 }
 .container1-left .Maintitle{ 
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   text-align: left;
   font-size: 4.5rem;
   font-weight: 650;
@@ -195,7 +194,7 @@ a:hover{
   text-align: center;
 }
 .container2{
-  padding: 5rem;
+  padding: 80px;
 }
 .section-title{
   text-align: left;
